@@ -2,9 +2,10 @@
   "name": "personal-budget-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app",
+    "build:digitalocean": "npm install --production=false && npm run build && npm ci",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
